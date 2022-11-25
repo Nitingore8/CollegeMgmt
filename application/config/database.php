@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => '',
-	'username' => '',
-	'password' => '',
-	'database' => '',
+	'hostname' => 'mymigtrainingdb.cdps531jh5yu.us-east-1.rds.amazonaws.com',
+	'username' => 'admin',
+	'password' => 'admin123',
+	'database' => 'college_mgmt',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
